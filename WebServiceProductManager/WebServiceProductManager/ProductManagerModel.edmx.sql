@@ -22,6 +22,7 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
+DROP TABLE [dbo].[Product];
 
 -- --------------------------------------------------
 -- Creating all tables
@@ -30,7 +31,7 @@ GO
 -- Creating table 'Product'
 CREATE TABLE [dbo].[Product] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [Name] nvarchar(max)  NOT NULL,
+    [Name] nvarchar(450)  NOT NULL,
     [Stock] int  NOT NULL,
     [Price] nvarchar(max)  NOT NULL,
     [ProductCode] nvarchar(450)  NOT NULL
@@ -58,6 +59,11 @@ GO
 ALTER TABLE [dbo].[Product]
 ADD CONSTRAINT [UNIQUE_ProductCode] 
 	UNIQUE (ProductCode);
+GO
+
+ALTER TABLE [dbo].[Product]
+ADD CONSTRAINT [UNIQUE_Name] 
+	UNIQUE (Name);
 GO
 
 INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Gskill Ripjaws X DDR3-1600MHz 2x4GB ', 20, N'62,90€', N'RAM1000')
