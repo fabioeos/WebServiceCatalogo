@@ -66,7 +66,7 @@ ADD CONSTRAINT [UNIQUE_Name]
 	UNIQUE (Name);
 GO
 
-INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Gskill Ripjaws X DDR3-1600MHz 2x4GB ', 20, N'62,90€', N'RAM1000')
-INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'SSD Samsung 2.5" 850 Pro 256GB', 10, N'169,90€', N'SSD1000')
-INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Motherboard Asus H97-PRO GAMER', 10, N'135,40€', N'MB1000')
-INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Motherboard Asus Z97 Maximus VII Hero/ACU', 5, N'229,90€', N'MB1001')
+INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Gskill Ripjaws X DDR3-1600MHz 2x4GB ', 20, N'62.90', N'RAM1000')
+INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'SSD Samsung 2.5" 850 Pro 256GB', 10, N'169.90', N'SSD1000')
+INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Motherboard Asus H97-PRO GAMER', 10, N'135.40', N'MB1000')
+INSERT INTO [dbo].[Product] ([Name], [Stock], [Price], [ProductCode]) VALUES (N'Motherboard Asus Z97 Maximus VII Hero/ACU', 5, N'229.90', N'MB1001')
