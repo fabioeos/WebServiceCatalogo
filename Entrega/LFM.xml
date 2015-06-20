@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Fabio">
+      <firstName>Fábio</firstName>
+      <lastName>Santos</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Rui">
+      <firstName>Rui</firstName>
+      <lastName>Marques</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Gerente">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Juri1">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Juri2">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Pedro">
+      <firstName>Pedro</firstName>
+      <lastName>Lisboa</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Vendedor">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Cliente">
+      <displayName>Cliente</displayName>
+    </role>
+    <role name="Departamento de Vendas">
+      <displayName>Departamento de Vendas</displayName>
+    </role>
+    <role name="Gerente de Armazém">
+      <displayName>Gerente de Armazém</displayName>
+    </role>
+    <role name="Departamento Jurídico">
+      <displayName>Departamento Jurídico</displayName>
+    </role>
+    <role name="Direção">
+      <displayName>Direção</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="LFM">
+      <displayName>LFM</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Fabio</userName>
+      <roleName>Cliente</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Rui</userName>
+      <roleName>Cliente</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Gerente</userName>
+      <roleName>Gerente de Armazém</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Juri1</userName>
+      <roleName>Departamento de Vendas</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Juri2</userName>
+      <roleName>Departamento de Vendas</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Pedro</userName>
+      <roleName>Departamento de Vendas</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+    <membership>
+      <userName>Vendedor</userName>
+      <roleName>Departamento de Vendas</roleName>
+      <groupName>LFM</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
